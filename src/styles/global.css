@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap");
+@import "colors.css";
+
+/********** GLOBAL ************/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: var(--neutral-light);
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  box-sizing: border-box;
+  background: radial-gradient(
+    at top left,
+    var(--primary-light) 0%,
+    var(--primary-medium) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+/********** TEXT STYLES ************/
+h1 {
+  font-size: 5rem;
+  font-family: "Qwitcher Grypen";
+  font-weight: 700;
+  color: var(--neutral-light);
+  text-shadow: 0.5rem 0.5rem 1rem var(--primary-medium);
+}
+
+h2 {
+}
+
+p {
+  font-family: "Arial";
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+
+/********** LAYOUT ************/
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout__content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.layout__footer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/********** NAVBAR ************/
+.navbar {
+  border-bottom: solid 2px var(--primary-medium);
+  box-shadow: 0.5rem 0.5rem 1.5rem var(--primary-light);
+}
+
+.navbar__container {
+  max-width: 1200px;
+  height: 6rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__container__title {
+  padding-bottom: 0.5rem;
+}
+
+.navbar__container__links {
+}
+
+.navbar__container__links__link {
+  font-family: "Helvetica";
+  padding: 0 1rem 0 1rem;
+}

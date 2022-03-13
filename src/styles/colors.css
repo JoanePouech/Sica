@@ -1,0 +1,11 @@
+/********** COLORS ************/
+:root {
+  /* verts */
+  --primary-light: #b7f7ab /* coin haut-gauche carte de visite */;
+  --primary-medium: #2ad876 /* coin bas-droite carte de visite */;
+  --primary-dark: #1b8046 /* couleur medium baissée à luminosité L=50 */;
+  /* variations beige à gris */
+  --neutral-light: #effedd /* beige clair, mot "SOPHRO" de la carte de visite */;
+  --neutral-medium: #78806f /* couleur light baissée à luminosité L=50 */;
+  --neutral-dark: #484d43 /* couleur light baissée à luminosité L=30 */;
+}
